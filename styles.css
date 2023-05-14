@@ -1,0 +1,62 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0%;
+    margin-right:0%;
+}
+body{
+    background: rgb(6,11,128);
+    background: linear-gradient(0deg, rgba(6,11,128,1) 0%, rgba(2,16,153,1) 55%, rgba(65,4,199,1) 76%, rgba(90,0,255,1) 93%);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#main{
+    float: left;
+    height: 100vh;
+    width: 50%;
+    background: rgb(6,1,91);
+    background: rgb(6,11,128);
+    background: linear-gradient(0deg, rgba(6,11,128,1) 0%, rgba(2,16,153,1) 55%, rgba(65,4,199,1) 76%, rgba(90,0,255,1) 93%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.mainCircle{
+    font-size: larger;
+    height: 200px;
+    width: 200px;
+    background: rgb(6,11,128);
+    background: linear-gradient(180deg, rgba(6,11,128,1) 0%, rgba(2,16,153,1) 55%, rgba(65,4,199,1) 76%, rgba(90,0,255,1) 93%);
+    border-radius: 120%;
+    display:flex;
+}
+h1{
+    font-weight: 200;
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+h6{
+    color: white;
+}
+
+#main2{
+    float: right;
+    height: 100vh;
+    width: 50%;
+   background-color: white;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
