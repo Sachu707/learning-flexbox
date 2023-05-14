@@ -1,6 +1,41 @@
 #flex-container{
     display:flex;
+    align-content: center;
+    justify-content: center;
+}
+#flex-container div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+}
+.flex-childLeftbox{
+    
+    background: rgb(6,1,91);
     background: rgb(6,11,128);
     background: linear-gradient(0deg, rgba(6,11,128,1) 0%, rgba(2,16,153,1) 55%, rgba(65,4,199,1) 76%, rgba(90,0,255,1) 93%);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    color: white;
+}
+.flex-childRighbox{
+    background-color: white;
+}
+.Circle{
+    width: 200px;
+    height: 200px;
+    background: #a1a1a1;
+    border: 1px solid #000;
+    background: rgb(6,11,128);
+    background: linear-gradient(180deg, rgba(6,11,128,1) 0%, rgba(2,16,153,1) 55%, rgba(65,4,199,1) 76%, rgba(90,0,255,1) 93%);
+    border-radius: 318000px;
+    margin-right: 55%;
+    align-content: center;
+}
+#Circle h1{
+    position: relative;
+    left: 19px;
+    top: 19px;
+    width: 90px;
+    height: 90px;
+    color: #000;
+    text-align: center;
 }
